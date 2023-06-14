@@ -1,8 +1,8 @@
 package task1
 
-func Kabisa(year int) bool {
+func Kabisa(year int) (res bool) {
 	if year%4 == 0 && year%100 != 0 || year%400 == 0 {
-		return true
+		res = true
 	}
-	return false
+	return res
 }
