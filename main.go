@@ -39,6 +39,10 @@ func main() {
 
 	// fmt.Println(task1.PerfectNumber(1000))
 
+	// fmt.Println(task1.IsPrime(11))
+
+	
+
 	timeElapsed := time.Since(start)
 	fmt.Printf("it took %s\n", timeElapsed)
 }

@@ -1,7 +1,6 @@
 package task1
 
 func PerfectNumber(n int) (arr []int) {
-
 	for i := 1; i <= n; i++ {
 		// fmt.Println(i)
 		var sum int
@@ -14,7 +13,5 @@ func PerfectNumber(n int) (arr []int) {
 			arr = append(arr, i)
 		}
 	}
-
 	return arr
-
 }
