@@ -21,5 +21,19 @@ func main() {
 	// 	}
 	// }
 
-	fmt.Println(task1.Swapper(8, 8))
+	// fmt.Println(task1.Swapper(8, 8))
+	for {
+		var day, month int
+		fmt.Println("kunni kiriting: ")
+		fmt.Scan(&day)
+		fmt.Println("oyni kiriting: ")
+		fmt.Scan(&month)
+		fmt.Print("Keyingi sana: ")
+		fmt.Println(task1.NextDate(day, month))
+		fmt.Println()
+		if day == 0 {
+			break
+		}
+	}
+
 }
