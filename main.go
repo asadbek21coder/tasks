@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"time"
+
+	"github.com/asadbek21coder/tasks/task1"
 )
 
 func main() {
@@ -41,7 +43,7 @@ func main() {
 
 	// fmt.Println(task1.IsPrime(11))
 
-	
+	fmt.Println(task1.SumArray(3, 4, 15))
 
 	timeElapsed := time.Since(start)
 	fmt.Printf("it took %s\n", timeElapsed)
