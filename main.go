@@ -43,7 +43,10 @@ func main() {
 
 	// fmt.Println(task1.IsPrime(11))
 
-	fmt.Println(task1.SumArray(3, 4, 15))
+	// res := task1.Sign(-2)
+	fmt.Println(task1.Sign(9845))
+
+	// fmt.Println(task1.SumArray(3, 4, 15))
 
 	timeElapsed := time.Since(start)
 	fmt.Printf("it took %s\n", timeElapsed)
