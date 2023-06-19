@@ -64,11 +64,14 @@ func main() {
 
 	// dif := task1.DifferenceDiskSphere(8.0, 5.0)
 	// fmt.Println(dif)
-	var array []int = []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	var array []int = []int{0, 98, 62, 96, 24, 1}
 	// fmt.Println(task1.ReverseArray(array))
 
-	tayyorMassiv, soni := task1.EvenIndexDesc(array)
-	fmt.Println(tayyorMassiv, soni)
+	// tayyorMassiv, soni := task1.EvenIndexDesc(array)
+	// fmt.Println(tayyorMassiv, soni)
+	toq, juft := task1.OddEvenIndex(array)
+	fmt.Println(toq, juft)
+
 	timeElapsed := time.Since(start)
 	fmt.Printf("it took %s\n", timeElapsed)
 }
