@@ -3,12 +3,27 @@ package main
 import (
 	"fmt"
 	"time"
+
+	"github.com/asadbek21coder/tasks/task1"
 )
 
 func main() {
 	start := time.Now()
 
-	// for {
+	// var limit int
+	// var array []int
+	// fmt.Println("Elementlar sonini kiritng: ")
+	// fmt.Scan(&limit)
+
+	// for i := 0; i < limit; i++ {
+	// 	var num int
+	// 	fmt.Scan(&num)
+	// 	array = append(array, num)
+	// }
+	// fmt.Println(task1.OddIncEvenDec(array))
+
+	// var array []int = []int{2,5,3,67,45,32,76,368,79,756,4353,42}
+	// / for {
 	// 	var year int
 	// 	fmt.Scan(&year)
 	// 	if year == -1 {
@@ -46,6 +61,11 @@ func main() {
 	// res := task1.Descriminant(2, 14	, 5)
 	// fmt.Println(res)
 	// fmt.Println(task1.SumArray(3, 4, 15))
+
+	// dif := task1.DifferenceDiskSphere(8.0, 5.0)
+	// fmt.Println(dif)
+	var array []int = []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	defer fmt.Println(task1.ReverseArray(array))
 
 	timeElapsed := time.Since(start)
 	fmt.Printf("it took %s\n", timeElapsed)
